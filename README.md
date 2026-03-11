@@ -1,10 +1,10 @@
-# Financial Fraud Detection Tool — Benford's Law Analyzer
+# Benford fraud detector
 
 A Python-based diagnostic tool that screens numerical datasets for compliance with **Benford's Law**, a statistical principle widely used in forensic accounting and auditing to flag potentially manipulated or fabricated data.
 
 ## How it works
 
-Benford's Law states that in naturally occurring numerical data, smaller digits appear as the leading digit far more often than larger ones. Real-world data like financial transactions, invoice amounts, and expense reports tends to follow this pattern closely. When someone fabricates numbers, they typically distribute digits too evenly or unconsciously favor certain digits — causing the distribution to deviate from what Benford's Law predicts.
+Benford's Law states that in naturally occurring numerical data, smaller digits appear as the leading digit far more often than larger ones. Real-world data like financial transactions, invoice amounts, and expense reports tends to follow this pattern closely. When someone fabricates numbers, they typically distribute digits too evenly or unconsciously favor certain digits causing the distribution to deviate from what Benford's Law predicts.
 
 This tool computes the first-digit distribution of any Excel dataset and compares it against the expected Benford distribution, flagging deviations that may warrant further investigation.
 
