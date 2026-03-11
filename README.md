@@ -1,4 +1,4 @@
-# Benford fraud detector
+# Financial Anomaly Detection Tool
 
 A Python-based diagnostic tool that screens numerical datasets for compliance with **Benford's Law**, a statistical principle widely used in forensic accounting and auditing to flag potentially manipulated or fabricated data.
 
